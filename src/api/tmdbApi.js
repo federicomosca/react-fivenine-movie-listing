@@ -10,8 +10,6 @@ const tmdb = axios.create({
   }
 });
 
-console.log('API_KEY usata:', TMDB_KEY);
-
 export const getRandomMovies = async () => {
   const movies = [];
   const usedPages = new Set();
